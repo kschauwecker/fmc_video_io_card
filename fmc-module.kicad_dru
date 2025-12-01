@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "ClearanceControlled Impedance"
+(constraint clearance (min 0.8mm))
+(condition "((A.NetClass == '90R Diff') || (A.NetClass == '50R Single')) && (B.Type == 'zone') && (A.type != 'via') && (B.NetClass != '90R Diff') && (B.NetClass != '50R Single')")
+)
