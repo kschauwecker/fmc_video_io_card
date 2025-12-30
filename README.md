@@ -13,3 +13,8 @@ This is an ongoing project. As of now, the electronics are untested. Further upd
 
 ## Known Issues
 * The card is a little too large and overlaps slightly with the SOM when mounted on the TE0701 carrier. The standoff screws on the SOM must be removed
+
+## FPGA Software
+The FPGA-implementation for the parallel RGB interface is currently being developed here:
+
+https://github.com/kschauwecker/gatemate_parallel_rgb
