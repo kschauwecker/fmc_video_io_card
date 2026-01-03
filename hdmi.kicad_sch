@@ -8368,121 +8368,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 199.39 57.15 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f70d5fa-c1ec-4565-9cb5-2ec0083f51d1")
-		(property "Reference" "C20"
-			(at 196.469 55.9816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 196.469 58.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 198.4248 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MBAST105SB7104KFNA01"
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Link" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MBAST105SB7104KFNA01?qs=tlsG%2FOw5FFj0FpJuqULGiw%3D%3D "
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link to Alternative" "https://www.mouser.de/ProductDetail/KEMET/C0402C104K8PAC?qs=gnaPJ2cis71t%2F81aE9FjIg%3D%3D"
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" " TAIYO YUDEN"
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternative MPNs" "C0402C104K8PAC"
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92a0586b-3aac-436e-ade7-f6068c033325")
-		)
-		(pin "2"
-			(uuid "8ff7a964-d6c9-4057-a276-5ae4ff2ed0f4")
-		)
-		(instances
-			(project "fmc-module"
-				(path "/d19e166d-341d-462a-80b4-f2bdffaa1825/1457e6e0-ad1e-4378-a600-a6902f50d75d"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 261.62 49.53 0)
 		(unit 1)
@@ -11628,6 +11513,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "Yageo"
+			(at 173.99 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " RC0402DR-07510RL"
+			(at 173.99 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.de/ProductDetail/YAGEO/RC0402DR-07510RL?qs=sGAEpiMZZMtG0KNrPCHnjdddqoDGo00GPkFvp667YOVfGt7QWtVpuw%3D%3D"
+			(at 173.99 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fa9a381d-ca4b-4f6d-9fd6-7df3d9195ccc")
 		)
@@ -12849,6 +12761,120 @@
 			(project "fmc-module"
 				(path "/d19e166d-341d-462a-80b4-f2bdffaa1825/1457e6e0-ad1e-4378-a600-a6902f50d75d"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da8cef1e-80ec-416a-8a31-3e1d9dcb78fc")
+		(property "Reference" "C20"
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 190.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 200.3552 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "TAIYO YUDEN"
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MSAST168BB5106MTNA01 "
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MSAST168BB5106MTNA01?qs=tlsG%2FOw5FFiY5MKT99fx9A%3D%3D"
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1482943c-cfdb-4824-b0b5-9c2cf0b55e7c")
+		)
+		(pin "2"
+			(uuid "e056e7b6-6f58-4cea-81d9-d0bdfda9d929")
+		)
+		(instances
+			(project "fmc-module"
+				(path "/d19e166d-341d-462a-80b4-f2bdffaa1825/1457e6e0-ad1e-4378-a600-a6902f50d75d"
+					(reference "C20")
 					(unit 1)
 				)
 			)

@@ -11,138 +11,6 @@
 		(company "Konstantin Schauwecker")
 	)
 	(lib_symbols)
-	(text "D17"
-		(exclude_from_sim no)
-		(at 142.24 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b8a4448-2094-4f78-8018-32958151849a")
-	)
-	(text "K15"
-		(exclude_from_sim no)
-		(at 142.24 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b916f00-748d-45de-966d-d952abc6bf2b")
-	)
-	(text "A15"
-		(exclude_from_sim no)
-		(at 142.24 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1924c8fe-c4a4-4078-bd9e-f04cd2b6f384")
-	)
-	(text "C16"
-		(exclude_from_sim no)
-		(at 142.24 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ed00d02-4b5a-4fcf-97a5-aa6eab095fd2")
-	)
-	(text "F17"
-		(exclude_from_sim no)
-		(at 142.24 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42c3028c-83f1-4eac-9ef7-0a9918c55198")
-	)
-	(text "E15"
-		(exclude_from_sim no)
-		(at 142.24 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e443331-bd55-43dc-bfad-3248112e8b41")
-	)
-	(text "J16"
-		(exclude_from_sim no)
-		(at 142.24 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7175d92c-f100-444d-871f-fd4ca56b1b59")
-	)
-	(text "B15"
-		(exclude_from_sim no)
-		(at 142.24 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76067b58-b33b-4818-91a4-586c6ac9cf21")
-	)
-	(text "E16"
-		(exclude_from_sim no)
-		(at 142.24 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cba50359-c097-4aaf-88ea-e27a7705cfb5")
-	)
-	(text "F18"
-		(exclude_from_sim no)
-		(at 142.24 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc3d2b01-2836-43b0-92ab-98f43b1b687a")
-	)
-	(text "D16"
-		(exclude_from_sim no)
-		(at 142.24 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ccd5f6ff-4214-4d5b-aaa8-b7ba32ed3b82")
-	)
-	(text "D18"
-		(exclude_from_sim no)
-		(at 142.24 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f033cbfc-1b85-48cd-a91c-76788a735c15")
-	)
 	(bus_entry
 		(at 190.5 36.83)
 		(size -2.54 2.54)
@@ -2922,7 +2790,7 @@
 			)
 		)
 		(pin "fmc_LA23_N" bidirectional
-			(at 100.33 105.41 180)
+			(at 100.33 102.87 180)
 			(uuid "3636a4ab-7122-47eb-8126-9d5b63383dde")
 			(effects
 				(font
@@ -2932,7 +2800,7 @@
 			)
 		)
 		(pin "fmc_LA23_P" bidirectional
-			(at 100.33 102.87 180)
+			(at 100.33 105.41 180)
 			(uuid "00ce208b-61e0-46c1-8d36-8fed9c837e26")
 			(effects
 				(font
@@ -2942,7 +2810,7 @@
 			)
 		)
 		(pin "fmc_LA1_N" bidirectional
-			(at 161.29 49.53 0)
+			(at 161.29 44.45 0)
 			(uuid "1363b555-605c-4495-b1fe-d604456641eb")
 			(effects
 				(font
@@ -2952,7 +2820,7 @@
 			)
 		)
 		(pin "fmc_LA1_P" bidirectional
-			(at 161.29 44.45 0)
+			(at 161.29 49.53 0)
 			(uuid "efdce889-ab01-4d52-8de2-fa07bdf56f7a")
 			(effects
 				(font
@@ -2972,7 +2840,7 @@
 			)
 		)
 		(pin "fmc_LA5_N" bidirectional
-			(at 161.29 52.07 0)
+			(at 161.29 57.15 0)
 			(uuid "0f7d56a7-8c69-4965-bce7-ac3f0f41672b")
 			(effects
 				(font
@@ -2992,7 +2860,7 @@
 			)
 		)
 		(pin "fmc_LA5_P" bidirectional
-			(at 161.29 57.15 0)
+			(at 161.29 52.07 0)
 			(uuid "dcf4c162-5468-47ad-a7b9-0bfec15d65ac")
 			(effects
 				(font
@@ -3002,7 +2870,7 @@
 			)
 		)
 		(pin "fmc_LA9_N" bidirectional
-			(at 161.29 39.37 0)
+			(at 161.29 41.91 0)
 			(uuid "3d56db2c-fccd-4bcc-a14c-a1f1635ae79a")
 			(effects
 				(font
@@ -3022,7 +2890,7 @@
 			)
 		)
 		(pin "fmc_LA9_P" bidirectional
-			(at 161.29 41.91 0)
+			(at 161.29 39.37 0)
 			(uuid "91204b00-5bd0-4a05-a029-a00864c8f8b7")
 			(effects
 				(font
@@ -3042,7 +2910,7 @@
 			)
 		)
 		(pin "fmc_LA13_P" bidirectional
-			(at 161.29 24.13 0)
+			(at 161.29 26.67 0)
 			(uuid "c55beae7-efa4-4461-a882-3c8cb20465fc")
 			(effects
 				(font
@@ -3052,7 +2920,7 @@
 			)
 		)
 		(pin "fmc_LA13_N" bidirectional
-			(at 161.29 26.67 0)
+			(at 161.29 24.13 0)
 			(uuid "42fac931-d5d2-467b-b2e2-0558f0a9cfb5")
 			(effects
 				(font
@@ -3091,9 +2959,9 @@
 				(justify left)
 			)
 		)
-		(pin "fmc_LA17_P" bidirectional
-			(at 100.33 97.79 180)
-			(uuid "dce80f45-1295-4305-89ae-b6a828701817")
+		(pin "fmc_LA18_P" bidirectional
+			(at 100.33 170.18 180)
+			(uuid "82f0e9b8-83e4-4aa3-b56e-ed062f027763")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,9 +2969,9 @@
 				(justify left)
 			)
 		)
-		(pin "fmc_LA18_P" bidirectional
-			(at 100.33 170.18 180)
-			(uuid "82f0e9b8-83e4-4aa3-b56e-ed062f027763")
+		(pin "fmc_LA17_N" bidirectional
+			(at 100.33 97.79 180)
+			(uuid "12142347-a8fa-43d6-b21c-f25635ef0237")
 			(effects
 				(font
 					(size 1.27 1.27)
