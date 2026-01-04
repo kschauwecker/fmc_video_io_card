@@ -8,13 +8,18 @@ This FMC module features a MIPI Rx and a HDMI Tx interface. It was designed for 
 * For the HDMI interface a parallel RGB converter IC is used (so the FPGA will need to output parallel RGB)
 * An additional HyperRAM is provided which can serve as a frame buffer
 
-This is an ongoing project. As of now, the electronics are untested. Further updates will follow.
+## Project Status
+This is an ongoing project. Only the following hardware parts have been tested and are confirmed to work
 
+* HDMI interface running at 720p @ 60Hz
+* HDMI interface running at 1080p @ 60Hz
+
+Test for the MIPI interface and HyperRAM are still pending.
 
 ## Known Issues
 * The card is a little too large and overlaps slightly with the SOM when mounted on the TE0701 carrier. The standoff screws on the SOM must be removed
 
 ## FPGA Software
-The FPGA-implementation for the parallel RGB interface is currently being developed here:
+The FPGA-implementation for the parallel RGB interface is available here:
 
 https://github.com/kschauwecker/gatemate_parallel_rgb
