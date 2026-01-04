@@ -1,6 +1,9 @@
 # FMC Video IO Card
 This FMC module features a MIPI Rx and a HDMI Tx interface. It was designed for use with the TEG2000 SOM in combination with the TE0701 carrier by Trenz Electronics, which features a GateMate FPGA by Cologne Chip.
 
+Please see the [blog post on Elektronaut](https://elektronaut.tech/en/fpga/driving-full-hd-video-with-the-cologne-chip-gatemate-fpga/)
+for more details on this project.
+
 ![PCB photo](/pcb-photo.jpeg)
 
 ## Core Features
